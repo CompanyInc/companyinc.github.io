@@ -1,0 +1,78 @@
+@import 'mixins';
+
+.profile {
+  clear: both;
+  overflow: auto;
+  margin-bottom: 30px;
+
+  @include breakpoint(medium) {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header {
+    display: flex;
+
+    img {
+      height: 100px;
+      width: 100px;
+      min-width: 100px; // Thanks flexbox
+      border-radius: 50px;
+      z-index: 2;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+    }
+
+    div {
+      flex-grow: 1;
+
+      h3 {
+        margin: 40px 0px 0px 10px;
+        text-transform: uppercase;
+        font-size: 12px;
+
+        @include breakpoint(medium) {
+          font-size: 22px;
+        }
+      }
+
+      h4 {
+        &::before {
+          border-top: 1px solid black;
+          content: '';
+          display: block;
+          width: 100%;
+          margin-bottom: 5px;
+        }
+
+        font: {
+          size: 8px;
+          style: italic;
+          weight: normal;
+          variant: small-caps;
+        }
+
+        margin: 5px 0px 0px 0px;
+        text-align: right;
+        letter-spacing: 0.4em;
+
+        @include breakpoint(medium) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  p {
+    width: 82%;
+    float: right;
+    text-align: justify;
+    line-height: 150%;
+    margin-top: 10px;
+
+    font: {
+      size: 14px;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+---
+# Needed for Jekyll
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Company Inc. &reg;&trade;&copy;</title>
+    <meta name="description" content="A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway|Linden+Hill:400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="http://companyinc.company">
+
+    <!-- SEO! SEO! SEO! -->
+    <meta name="google-site-verification" content="9jeBZAf_WqC35Xxg6qWrAqqPCrd9hIakLtGmQFLNPcg" />
+    
+    <!-- I'm a socialite -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Company Inc.&reg;&trade;&copy;" />
+    <meta name="twitter:description" content="A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc" />
+    <meta name="twitter:image" content="http://companyinc.company/public/icons/twitter.png" />
+
+    <meta property="og:url" content="http://companyinc.company" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Company Inc.&reg;&trade;&copy;" />
+    <meta property="og:description" content="A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc" />
+    <meta property="og:image" content="http://companyinc.company/public/icons/facebook.png" />
+
+    <!-- I'd like to thank Standardization -->
+    <link rel="apple-touch-icon" sizes="57x57" href="public/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/icons/favicon-16x16.png">
+    <link rel="manifest" href="public/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="public/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <!-- I WOULD NOT LIKE TO THANK MOBILE. -->
+    <div class="background"></div>
+    <main id="wrapper">
+      <h1>Company Inc.<sup>&reg;&trade;&copy;</sup></h1>
+      <!--
+        It sounds so pompous I want to punch you in the face
+          - My friend
+      -->
+      <p id="about">
+        Company Inc. is a stealth mode startup that answers a greater calling. Our group sees the world in a different light and is prepared to play a pivotal role in disrupting the new age market. We are delighted with our unique product and eagerly anticipate the grand reveal. We consider ourselves #blessed to have the opportunity to grow our brand in this exciting age of explosive innovation and look forward to receiving seed money to further our objective. Meet our diverse Founding Board of Officers below and learn how we mesh together like gears in a well-oiled machine!
+      </p>
+
+      <section id="officer-list">
+        {% for officer in site.data.officers %}
+          <div class="profile">
+            <header>
+              <img src="public/images/{{ officer.image }}" title="{{ officer.alt }}" />
+              <div>
+                <h3><a name="#">{{ officer.name }}</a></h3>
+                <h4>{{ officer.position }}</h4>
+              </div>
+            </header>
+            <p>{{ officer.bio }}</p>
+          </div>
+        {% endfor %}
+      </section>
+    </main>
+
+    <!--
+      Any change no matter how small must be justified by numbers gathered through analytics.
+      Luckily, those can be interpreted in almost any way possible!
+    -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-74388083-1', 'auto');
+      ga('send', 'pageview');
+
+      console.info("We're making a 3d printed Vuvuzela");
+    </script>
+  </body>
+</html>

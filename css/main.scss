@@ -1,0 +1,96 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "mixins";
+@import "normalize";
+@import "profile";
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Helvetica';
+}
+
+.background {
+  // background: url('../public/images/bg.jpg');
+  background: url('https://images.unsplash.com/photo-1414115880398-afebc3d95efc?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1075');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font: {
+    family: 'Raleway';
+    variant: small-caps;
+    size: 30px;
+  }
+  text-align: center;
+
+  @include breakpoint(medium) {
+    font-size: 36px;
+  }
+
+  sup {
+    display: inline-block;
+    font-size: 10px;
+    top: -1.5em;
+
+    @include breakpoint(medium) {
+      font-size: 12px;
+    }
+  }
+}
+
+#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  background: rgba(#ffffff, 0.9);
+  margin: 25px;
+  padding: 25px;
+  overflow: auto;
+
+  @include breakpoint(1030px) {
+    padding: 40px;
+    max-width: 980px;
+    margin: 50px auto 50px auto;
+  }
+}
+
+#about {
+  font: {
+    family: 'Linden Hill';
+    style: italic;
+    size: 16px;
+  }
+
+  text-align: justify;
+  margin: auto;
+  padding-bottom: 20px;
+
+  @include breakpoint(medium) {
+    font-size: 22px;
+    width: 85%;
+  }
+
+  @include breakpoint(large) {
+    width: 70%;
+  }
+
+  &::after {
+    border-bottom: 1px solid #333333;
+    content: '';
+    display: block;
+    margin: 0px auto 50px auto;
+    padding: 15px;
+    width: 20%;
+  }
+}
