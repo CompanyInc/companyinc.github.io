@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section class="blog_list">
+  <ol>
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ol>
+</section>

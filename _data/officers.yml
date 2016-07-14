@@ -1,76 +1,89 @@
-- name: Ian Mitchell
+Ian:
+  name: Ian Mitchell
   image: ian.jpg
   alt: I'm on a boat and
   position: Chief Experience Officer
   bio: A sharp eye for quality is the cornerstone of any successful company. Ian leads the charge for Company Inc.<sup>&reg;&trade;&copy;</sup>, deftly crafting the greatest experience for its customers, especially when it comes to aesthetics. He possesses the highest standards of beauty and user interface design. Even the most minute flaws trigger his swift and precise reactions, shooting down all inferior ideas until only the perfect experience remains.
 
-- name: Elmer Pres Urbano
+Elmer:
+  name: Elmer Pres Urbano
   image: elmer.jpg
   alt: There's only one thing thicker than my investment portfolio... ;)
   position: Chief Executive Senior Vice President Worldwide
   bio: Elmer is in charge of our growth sector, furthering the synergy of our group with his out of the box thinking. He's a brilliant thought leader who has repeatedly been a game changer for us, with a pattern of visionary disruptive innovation that has led to our viral organic growth. When it comes to crises, Elmer consistently comes up with cost effective solutions, always mindful that Money Is A Major Issue.
 
-- name: Lia Zadoyan
+Lia:
+  name: Lia Zadoyan
   image: lia.jpg
   alt: dickbutt
   position: Señorita Chief Encounter Officer
   bio: Lia runs a specialized team of developers and interns laser-focused on their task of tearing down the walls between domestic and office life. As the world becomes more intimately connected, we’ve identified relationships both inside and outside of the workplace as being ripe with opportunity and growth. The team has done many deep-dives into different issues, constructing an artificial intelligence powered by machine learning that benchmarks various crossed boundaries.
 
-- name: Anthony Cisneros
+Anthony:
+  name: Anthony Cisneros
   image: anthony.jpg
   alt: Shall we begin? How many lights are there?
   position: Chief Compliance Officer
   bio: Anthony pioneered using Big Data along with Business Intelligence to create a Thought Model for our employees to adhere to. He mentors our workers on how to comply with these ideals, and helps guide them through a personal paradigm shift. Anthony excels at being open to any questions, and can pivot at a moment’s notice. He is an incredibly valued member of our team.
 
-- name: Antonio Michael Leija
+Antonio:
+  name: Antonio Michael Leija
   image: antonio.jpg
   alt: M O N D A Y HYPE
   position: Chief of Positivity
   bio: Communication is everything, and Antonio evangelizes it at every opportunity. He has a talent for rallying the troops derived from years of extensive corporate experience and firmly believes an informed employee is a productive worker. Antonio is the first in the office so he can greet each employee at the beginning of the day and always the last out as he works tirelessly preparing for the day ahead. Even on the eve of our debut, Antonio continues to guarantee that high quality, well documented work is developed by the full stack of Company Inc.<sup>&reg;&trade;&copy;</sup> employees.
 
-- name: Cale Glisson
+Cale:
+  name: Cale Glisson
   image: cale.jpg
   alt: Are emoji considered dank?
   position: Chief of the Dank
   bio: At Company Inc.<sup>&reg;&trade;&copy;</sup>, we are highly proud of our company culture. We believe a welcoming and comfortable work environment enables our employees to develop world changing technologies at their highest capacity. 🎂Cake🎂 embodies this ideal by aggressively pursuing the dankest memes and technologies and providing these services to our employees. Our shelves are always stacked high with the highest quality goods the internet has to offer.
 
-- name: Zach Behnke
+Zach:
+  name: Zach Behnke
   image: zach.jpg
   alt: It's a pokemon joke
   position: Chief of Gains
   bio: Zach aspires to be the best there ever was. He's a leading trainer in his field, and routinely cycles through gyms across the land. He's faced every challenge along the way with commendable courage, and has attained his rightful place. He is true of heart, and is just as likely to learn from others as he is to teach them. For the past 20 years he’s brought a youthful perspective to the industry.
 
-- name: Michael Peterson
+Michael:
+  name: Michael Peterson
   image: michael.jpg
   alt: His rockets aren't the only thing that fails to launch
   position: Chief Intern Officer
   bio: Company Inc.<sup>&reg;&trade;&copy;</sup> knows that the youth will be world leaders one day. We take a proactive approach to this, giving an opportunity for students to grow up learning how they fit in within our company’s complex hierarchy. Michael concerns himself with every aspect of intern life, from streamlining the onboarding process to empowering them with the tools to maximize their productivity. He prides himself in his engagement and dedication in following up with every intern and his willingness to go the extra mile.
 
-- name: Kyle Staskus
+Kyle:
+  name: Kyle Staskus
   image: kyle.jpg
   alt: Ian is a monster
   position: Chief Noise Officer
   bio: “The loudest voice in the room usually wins” a wise man once said, but you probably won’t hear that over the sound of Kyle spreading our company’s brand. When others are clambering to be heard, Kyle will articulate our message clearly and concisely to prove that we are a progressive force with no time for lesser, more conservative solutions. It is the highest privilege to have Kyle on our team setting the tone of our company.
 
-- name: Shaun Boley
+Shaun:
+  name: Shaun Boley
   image: shaun.jpg
   alt: Shaun and his think tank
   position: Chief Vehicular Security Officer
   bio: Physical assets are a huge part of any Company. In order to stay competitive with startups like Lyft or Uber, the acquisition and protection of physical commodities is a top priority. Shaun brings us into the 22nd Century, militantly guarding our vehicular assets. By utilizing his specially hand-picked think tank, Shaun is able to identify imminent threats to our brand and take measures to ensure the security of our proprietary estates.
 
-- name: Toby Elder
+Toby:
+  name: Toby Elder
   image: toby.jpg
   alt: Ironically the youngest
   position: Chief Espionage Officer
   bio: Toby excels at offline interactions in a world increasingly dependent on online tools. Reaching out to employees and teaching informational security is his primary role, but he is also responsible for many other security related tasks. Offshoring such a critical job would be unrealistic, and we are exceptionally pleased to have him on board with us. Leveraging his ability to wear many masks, he is able to excel in any role which enables him to blend into groups and extract vital information discreetly. Logistics are a huge part of any company, and it is mission critical to have someone on the frontlines of informational security.
 
-- name: Luke Diedrich
+Luke:
+  name: Luke Diedrich
   image: luke.jpg
   alt: He breaks hearts like he breaks his bones
   position: Chief Injury Officer
   bio: Workplace injuries are an unfortunate part of life. It is Luke’s priority to make sure employees can appropriately heal in a timely matter. Luke puts his own health on the line by injuring himself in every way possible in order to learn the intricacies of the healing process. His dedication and determination to his job has paid great dividends in allowing us to take our care of our employees to the next level. We wish him a speedy recovery from his most recent surgery.
 
-- name: Gatsby
+Gatsby:
+  name: Gatsby
   image: gatsby.jpg
   alt: Woof
   position: Chief Dog Officer

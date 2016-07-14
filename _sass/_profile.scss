@@ -1,9 +1,8 @@
 @import 'mixins';
 
 .profile {
-  clear: both;
   overflow: auto;
-  margin-bottom: 30px;
+  margin: 40px 0;
 
   @include breakpoint(medium) {
     width: 80%;
@@ -12,67 +11,56 @@
   }
 
   header {
+    margin-bottom: 15px;
+
+    h3 {
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-size: 24px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid black;
+    }
+
+    h4 {
+      font: {
+        size: 14px;
+        style: italic;
+        weight: normal;
+        variant: small-caps;
+      }
+
+      margin: 5px 0px 0px 0px;
+      letter-spacing: 0.4em;
+    }
+  }
+
+  .profile-content {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    @include breakpoint(medium) {
+      flex-direction: row;
+    }
 
     img {
-      height: 100px;
-      width: 100px;
-      min-width: 100px; // Thanks flexbox
-      border-radius: 50px;
-      z-index: 2;
+      margin: 15px 30px 15px 15px;
+      height: 150px;
+      width: 150px;
+      min-width: 150px; // Thanks flexbox
+      border-radius: 75px;
       -webkit-filter: grayscale(1);
       filter: grayscale(1);
     }
 
-    div {
-      flex-grow: 1;
+    p {
+      text-align: justify;
+      line-height: 150%;
 
-      h3 {
-        margin: 40px 0px 0px 10px;
-        text-transform: uppercase;
-        font-size: 12px;
-
-        @include breakpoint(medium) {
-          font-size: 22px;
-        }
+      font: {
+        size: 14px;
       }
-
-      h4 {
-        &::before {
-          border-top: 1px solid black;
-          content: '';
-          display: block;
-          width: 100%;
-          margin-bottom: 5px;
-        }
-
-        font: {
-          size: 8px;
-          style: italic;
-          weight: normal;
-          variant: small-caps;
-        }
-
-        margin: 5px 0px 0px 0px;
-        text-align: right;
-        letter-spacing: 0.4em;
-
-        @include breakpoint(medium) {
-          font-size: 12px;
-        }
-      }
-    }
-  }
-
-  p {
-    width: 82%;
-    float: right;
-    text-align: justify;
-    line-height: 150%;
-    margin-top: 10px;
-
-    font: {
-      size: 14px;
     }
   }
 }

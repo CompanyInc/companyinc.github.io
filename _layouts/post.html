@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign author = site.data.officers[page.author] %}
+
+<p id="about">
+  <time>
+    Posted on {{ page.date | date: "%b %-d, %Y" }} by {{ author.name }}, {{ author.position }}
+  </time>
+</p>
+
+<section class="post-content">
+  {{ content }}
+</section>

@@ -1,0 +1,43 @@
+.blog_list {
+  h2 {
+    font: {
+      family: 'Raleway';
+      variant: small-caps;
+    }
+  }
+
+  ol {
+    counter-reset: item;
+    list-style: none;
+
+    font: {
+      family: 'Raleway';
+      font-size: 27px;
+    }
+
+    li {
+      line-height: 175%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      /*
+        GUYS OK STORY TIME. I WROTE THIS WHEN I WAS LIKE IN I DON'T EVEN KNOW LET'S GO WITH JUNIOR OR SENIOR YEAR IN HIGH SCHOOL AND IT'S SUPER COOL I DID IT TO EMULATE THE ZUNEHD DESKTOP MUSIC PLAYER AND I'M PROUD BECAUSE IT'S WICKED COOL AND I'M HAPPY BECAUSE I CAN FINALLY USE IT TOO BAD IT'S SO SUBTLE AND REALLY NOT WORTH HOW HARD IT IS TO DO AND LIKE BEFORE YOU TELL ME YES I KNOW THERE IS LITERALLY A WAY TO DO THIS 'NORMALLY' WITH CSS BUT I DON'T CARE
+      */
+      &:nth-child(n):not(:nth-child(n+10)):before {
+        content: "0" counter(item) ".";
+        counter-increment: item;
+      }
+
+      &:nth-child(n+10):before {
+        content: counter(item) ".";
+        counter-increment: item;
+      }
+
+      &:before {
+        margin: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+}

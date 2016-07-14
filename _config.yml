@@ -1,10 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# url: "http://companyinc.company/"
+url: "http://localhost:4000/"
+title: Company Inc.&reg;&trade;&copy;
+description: "A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc"
+permalink: /:year/:month/:day/:title
 
-# Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://companyinc.company/" # the base hostname & protocol for your site
+about: >
+  Company Inc. is a stealth mode startup that answers a greater calling. Our group sees the world in a different light and is prepared to play a pivotal role in disrupting the new age market. We are delighted with our unique product and eagerly anticipate the grand reveal. We consider ourselves #blessed to have the opportunity to grow our brand in this exciting age of explosive innovation and look forward to receiving seed money to further our objective. Meet our diverse Founding Board of Officers below and learn how we mesh together like gears in a well-oiled machine!
+
+# GitHub Gems
+gems:
+  - jekyll-feed

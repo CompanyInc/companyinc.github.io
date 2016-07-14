@@ -2,9 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "mixins";
+
 @import "normalize";
+@import "mixins";
 @import "profile";
+@import "blog_list";
+@import "posts";
 
 html {
   font-size: 18px;
@@ -12,41 +15,52 @@ html {
 
 body {
   font-family: 'Helvetica';
+  background: #333;
 }
 
-.background {
-  // background: url('../public/images/bg.jpg');
-  background: url('https://images.unsplash.com/photo-1414115880398-afebc3d95efc?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1075');
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-position: center center;
-  background-repeat: no-repeat;
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  border-bottom: 1px solid #0074D9;
+  color: #0074D9;
+  transition: all 1s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: darken(#0074D9, 20%);
+  border-bottom: 1px solid darken(#0074D9, 20%);
+  transition: all 1s;
 }
 
 h1 {
+  text-align: center;
   font: {
     family: 'Raleway';
     variant: small-caps;
-    size: 30px;
+    size: 36px;
   }
-  text-align: center;
 
   @include breakpoint(medium) {
-    font-size: 36px;
+    font-size: 48px;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  a:active,
+  a:visited {
+    color: #000;
+    text-decoration: none;
+    border: 0;
   }
 
   sup {
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
     top: -1.5em;
-
-    @include breakpoint(medium) {
-      font-size: 12px;
-    }
   }
 }
 
@@ -72,6 +86,7 @@ h1 {
     size: 16px;
   }
 
+  line-height: 160%;
   text-align: justify;
   margin: auto;
   padding-bottom: 20px;
@@ -89,8 +104,23 @@ h1 {
     border-bottom: 1px solid #333333;
     content: '';
     display: block;
-    margin: 0px auto 50px auto;
+    margin: 0 auto;
     padding: 15px;
     width: 20%;
+  }
+
+  time {
+    text-align: center;
+    display: block;
+  }
+}
+
+#blog-link {
+  text-align: center;
+
+  font: {
+    family: 'Linden Hill';
+    style: italic;
+    size: 24px;
   }
 }
