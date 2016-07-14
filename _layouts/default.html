@@ -9,8 +9,8 @@
     <meta name="description" content="A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc">
 
     <link href='https://fonts.googleapis.com/css?family=Raleway|Linden+Hill:400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
-    <link rel="canonical" href="http://companyinc.company">
+    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.url }}">
+    <link rel="canonical" href="{{ site.url }}">
 
     <!-- SEO! SEO! SEO! -->
     <meta name="google-site-verification" content="9jeBZAf_WqC35Xxg6qWrAqqPCrd9hIakLtGmQFLNPcg" />
@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="{{ "public/icons/twitter.png" | prepend: site.url}}" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://companyinc.company/public/icons/facebook.png" />
+    <meta property="og:image" content="{{ site.url }}public/icons/facebook.png" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | truncatewords: 25 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">

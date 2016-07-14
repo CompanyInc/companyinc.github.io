@@ -1,5 +1,5 @@
-# url: "http://companyinc.company/"
-url: "http://localhost:4000/"
+url: "http://companyinc.company/"
+# url: "http://localhost:4000/"
 title: Company Inc.&reg;&trade;&copy;
 description: "A stealth mode startup excited about our #brand. Connect with our worldwide market using #companyinc"
 permalink: /:year/:month/:day/:title
