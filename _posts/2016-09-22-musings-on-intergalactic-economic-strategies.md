@@ -1,6 +1,6 @@
 ---
 title: Musings on Intergalactic Economic Strategies
-date: '2016-09-22 02:36:00'
+date: '2016-09-22 00:00:00'
 author: Elmer
 layout: post
 ---
