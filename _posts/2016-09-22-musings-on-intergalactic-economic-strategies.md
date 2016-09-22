@@ -6,9 +6,9 @@ layout: post
 ---
 # Musings on Intergalactic Economic Strategies
 
-Company Inc. had an amazing opportunity to play in the popular megagame Watch the Skies. If you have no clue what a megagame is, take some time to watch this video. You won’t be disappointed.
+Company Inc.®™© had an amazing opportunity to play in the popular megagame Watch the Skies. If you have no clue what a megagame is, take some time to [watch this video](https://www.shutupandsitdown.com/videos/susd-play-megagame/). You won’t be disappointed.
 
-As the alien race in this particular game, Company Inc. was tasked with mining the planet Earth for special crystals known as CZero. However, there were these pesky rodents called “humans” that “tried” to stop us from mining our precious mineral. As soon as play started, I immediately seized the control of the alien economy and technology sectors. Here’s what I learned that day.
+As the alien race in this particular game, Company Inc.®™© was tasked with mining the planet Earth for special crystals known as CZero. However, there were these pesky rodents called “humans” that “tried” to stop us from mining our precious mineral. As soon as play started, I immediately seized the control of the alien economy and technology sectors. Here’s what I learned that day.
 
 # Maximize Spending Power
 
