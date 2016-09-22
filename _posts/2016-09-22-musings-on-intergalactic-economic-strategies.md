@@ -1,6 +1,7 @@
 ---
 title: Musings on Intergalactic Economic Strategies
 date: '2016-09-22 02:36:00'
+author: Elmer
 layout: post
 ---
 Company Inc. had an amazing opportunity to play in the popular megagame Watch the Skies. If you have no clue what a megagame is, take some time to watch this video. You won’t be disappointed.
