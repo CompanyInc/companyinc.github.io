@@ -1,11 +1,11 @@
 ---
+title: ''
 layout: default
 ---
 <p id="blog-link"><a href="{{site.url}}blog">Read Our Blog Posts!</a></p>
 <p id="about">
   {{ site.about }}
 </p>
-
 <section>
   {% for officer in site.data.officers %}
     <div class="profile">
@@ -16,10 +16,9 @@ layout: default
         </div>
       </header>
       <div class="profile-content">
-        <img src="public/images/{{ officer[1].image }}" title="{{ officer[1].alt }}" />
+        <img src="public/images/{{ officer[1].image }}" title="{{ officer[1].alt }}">
         <p>{{ officer[1].bio }}</p>
       </div>
     </div>
   {% endfor %}
 </section>
-</main>
