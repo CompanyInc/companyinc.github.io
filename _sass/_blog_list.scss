@@ -7,7 +7,6 @@
   }
 
   ol {
-    counter-reset: item;
     list-style: none;
 
     font: {
@@ -23,15 +22,16 @@
 
       /*
         GUYS OK STORY TIME. I WROTE THIS WHEN I WAS LIKE IN I DON'T EVEN KNOW LET'S GO WITH JUNIOR OR SENIOR YEAR IN HIGH SCHOOL AND IT'S SUPER COOL I DID IT TO EMULATE THE ZUNEHD DESKTOP MUSIC PLAYER AND I'M PROUD BECAUSE IT'S WICKED COOL AND I'M HAPPY BECAUSE I CAN FINALLY USE IT TOO BAD IT'S SO SUBTLE AND REALLY NOT WORTH HOW HARD IT IS TO DO AND LIKE BEFORE YOU TELL ME YES I KNOW THERE IS LITERALLY A WAY TO DO THIS 'NORMALLY' WITH CSS BUT I DON'T CARE
+        And I made it go backwards.
       */
       &:nth-child(n):not(:nth-child(n+10)):before {
         content: "0" counter(item) ".";
-        counter-increment: item;
+        counter-increment: item -1;
       }
 
       &:nth-child(n+10):before {
         content: counter(item) ".";
-        counter-increment: item;
+        counter-increment: item -1;
       }
 
       &:before {
