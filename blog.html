@@ -3,7 +3,8 @@ layout: default
 ---
 
 <section class="blog_list">
-  <ol>
+  {% assign itemSize = site.posts.size | plus:1 %}
+  <ol style="counter-reset:item {{ itemSize }}">
     {% for post in site.posts %}
       <li>
         <h2>
